@@ -1,21 +1,21 @@
 let handler  = async (m, { conn, usedPrefix }) => { 
 conn.reply(m.chat, `
 ╭─˗ˏˋ *INFORMASI OWNER* ´ˎ˗
-│ ✎ _Nama_ : Jarot
-│ ✎ _Sekolah_ : Lulus
-│ ✎ _Umur_ : 17
-│ ✎ _Asal_ : Jawa timur
-│ ✎ _Status_ : Turu deck
+│ ✎ _Nama_ : Rama/ahmad
+│ ✎ _Sekolah_ : KULIAH
+│ ✎ _Umur_ : 19
+│ ✎ _Asal_ : mataram
+│ ✎ _Status_ : SEDANG NGENTOD
 │ ✎ _Official Grup 1_ :
-│    https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL
+│    https://chat.whatsapp.com/IcnbfEst6KK0UOaCJMh8E2
 │ ✎ _Official Grup 2_ :
-│    https://chat.whatsapp.com/HjRHck1G3WRHOx97fJkdMN
+│    kosong
 │ ✎ _Youtube _:
-│    https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ
+│    https://youtube.com/channel/UCJNi-zXIsky4nheONnxoY1w
 │ ✎ _Instagram_ : 
-│    https://instagram.com/oscarbotz_
+│    https://instagram.com/ahmdzakaria47
 │ ✎ _WhatsApp_ :
-│    wa.me/6285850539404
+│    wa.me/6287793236775
 ╰───────────────────
 `.trim(), m)
 }
