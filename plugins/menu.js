@@ -35,7 +35,7 @@ const defaultMenu = {
   body: '┆⬡ %cmd %islimit %isPremium',
   footer: '┗━───────⬣\n',
   after: `
-*%𝗗𝗮𝗿𝗸 𝗢𝗳𝗳𝗰@^%version*
+*%𝙍𝙖𝙢𝙖-𝙈𝙙@^%version*
 ${'```%npmdesc```'}
 `,
 }
