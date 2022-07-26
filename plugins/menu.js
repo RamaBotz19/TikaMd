@@ -28,7 +28,7 @@ const defaultMenu = {
 ┆⬡ *Database* : %rtotalreg dari %totalreg
 ┆⬡ *Memory Used* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ┆⬡ *Instagram* :
-┆⬡ https://instagram.com/oscarbotz_
+┆⬡ https://instagram.com/ahmdzakaria47
 ┗─────────────────⬣
 %readmore`.trim(),
   header: '┏━┈┈『 %category 』┈┈⬣',
@@ -197,32 +197,32 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       let judul = `${global.ucapan}, ${name}`.trim()
       const sections = [
       {
-        title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 𝗗𝗮𝗿𝗸 𝐛𝐨𝐭',
+        title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 𝙍𝙖𝙢𝙖 𝘽𝙤𝙩𝙯',
         rows: [
-          { title: 'Allmenu', rowId: `${_p}? all` },
-          { title: 'infoalpi', rowId: `${_p}? infoalpi` },
-          { title: 'infojarot', rowId: `${_p}? infojarot` },
-          { title: 'Game', rowId: `${_p}? game` },
-          { title: 'XP', rowId: `${_p}? xp` },
-          { title: 'Stiker', rowId: `${_p}? stiker` },
-          { title: 'Kerang ajaib', rowId: `${_p}? kerangajaib` },
-          { title: 'Kuotes', rowId: `${_p}? quotes` },
-          { title: 'Grup', rowId: `${_p}? grup` },
-          { title: 'Premium', rowId: `${_p}? premium` },
-          { title: 'Internet', rowId: `${_p}? internet` },
-          { title: 'Anonymous', rowId: `${_p}? anonymous` },
-          { title: 'Nulis & Logo', rowId: `${_p}? nulis` },
-          { title: 'Downloader', rowId: `${_p}? downloader` },
-          { title: 'Tools', rowId: `${_p}? tools` },
-          { title: 'Fun', rowId: `${_p}? fun`},
-          { title: 'Database', rowId: `${_p}? database` },
-          { title: 'Vote & Absen', rowId: `${_p}? vote` },
-          { title: "Al-Qur\'an", rowId: `${_p}? quran` },
-          { title: 'Pengubah suara', rowId: `${_p}? audio` },
-          { title: 'Jadi bot', rowId: `${_p}? jadibot` },
-          { title: 'Info', rowId: `${_p}? info` },
-          { title: 'Tanpa kategori', rowId: `${_p}? tanpakategori` },
-          { title: 'Owner', rowId: `${_p}? owner` },
+          { title: '𝙎𝙀𝙈𝙐𝘼 𝙈𝙀𝙉𝙅', rowId: `${_p}? all` },
+          { title: '𝙄𝙉𝙁𝙊 𝙍𝘼𝙈𝘼', rowId: `${_p}? infoalpi` },
+          { title: '𝙄𝙉𝙁𝙊 𝙍𝘼𝙈𝘼', rowId: `${_p}? infojarot` },
+          { title: '𝙈𝙀𝙉𝙐 𝙂𝘼𝙈𝙀', rowId: `${_p}? game` },
+          { title: '𝙈𝙀𝙉𝙐 𝙓𝙋', rowId: `${_p}? xp` },
+          { title: '𝙈𝙀𝙉𝙐 𝙎𝙏𝙄𝘾𝙆𝙀𝙍', rowId: `${_p}? stiker` },
+          { title: '𝙈𝙀𝙉𝙐 𝙆𝙍𝙀𝙉𝙂 𝘼𝙅𝘼𝙄𝘽', rowId: `${_p}? kerangajaib` },
+          { title: '𝙈𝙀𝙉𝙐 𝙌𝙐𝙊𝙏𝙀𝙎', rowId: `${_p}? quotes` },
+          { title: '𝙈𝙀𝙉𝙐 𝙂𝙍𝙐𝙉', rowId: `${_p}? grup` },
+          { title: '𝙈𝙀𝙉𝙐 𝙆𝙃𝙐𝙎𝙐𝙎 𝙋𝙍𝙀𝙈', rowId: `${_p}? premium` },
+          { title: '𝙈𝙀𝙉𝙐 𝙄𝙉𝙏𝙀𝙍𝙉𝙀𝙏', rowId: `${_p}? internet` },
+          { title: '𝘼𝙉𝙊𝙔𝙈𝙊𝙐𝙎 𝘾𝙃𝘼𝙏', rowId: `${_p}? anonymous` },
+          { title: '𝙉𝙐𝙇𝙄𝙎 & 𝙇𝙊𝙂𝙊', rowId: `${_p}? nulis` },
+          { title: '𝙈𝙀𝙉𝙐 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿', rowId: `${_p}? downloader` },
+          { title: '𝙈𝙀𝙉𝙐 𝙏𝙊𝙇𝙎', rowId: `${_p}? tools` },
+          { title: '𝙈𝙀𝙉𝙐 𝙁𝙐𝙉', rowId: `${_p}? fun`},
+          { title: '𝘿𝘼𝙏𝘼𝘽𝘼𝙎𝙀', rowId: `${_p}? database` },
+          { title: '𝙑𝙊𝙏𝙀 & 𝘼𝘽𝙎𝙀𝙉', rowId: `${_p}? vote` },
+          { title: "𝘼𝙡-𝙌𝙐𝙍𝘼𝙉", rowId: `${_p}? quran` },
+          { title: '𝙋𝙀𝙉𝙂𝙐𝘽𝘼𝙃 𝙎𝙐𝘼𝙍𝘼', rowId: `${_p}? audio` },
+          { title: '𝙅𝘼𝘿𝙄 𝘽𝙊𝙏(𝙋𝙍𝙀𝙈𝙄𝙐𝙈) ', rowId: `${_p}? jadibot` },
+          { title: '𝙄𝙉𝙁𝙊', rowId: `${_p}? info` },
+          { title: '𝙏𝘼𝙉𝙋𝘼 𝙆𝘼𝙏𝙀𝙂𝙊𝙍𝙄', rowId: `${_p}? tanpakategori` },
+          { title: '𝙊𝙒𝙉𝙀𝙍', rowId: `${_p}? owner` },
         ]
       }
     ]
