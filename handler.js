@@ -36,8 +36,8 @@ module.exports = {
         global.colong1 = 'Ciss 📸'
         global.colong2 = '𝙍𝙖𝙢𝙖-𝘽𝙤𝙩𝙯'
         global.kontak2 = [
-        ['6287793236775', '𝐉𝐚𝐫𝐨𝐭', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtube.com/channel/UCJNi-zXIsky4nheONnxoY1w', true],
-        ['6287793236775', await this.getName('6287793236775@s.whatsapp.net'), '𝑷𝒂𝒓𝒕𝒏𝒆𝒓 𝙍𝙖𝙢𝙖𝘽𝙤𝙩𝙯', 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', true], 
+        ['6287793236775', '𝙍𝙖𝙢𝙖', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtube.com/channel/UCJNi-zXIsky4nheONnxoY1w', true],
+        ['6287793236775', await this.getName('6287793236775@s.whatsapp.net'), '𝑷𝒂𝒓𝒕𝒏𝒆𝒓 𝙍𝙖𝙢𝙖𝘽𝙤𝙩𝙯', 'https://youtube.com/channel/UCJNi-zXIsky4nheONnxoY1w', true], 
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
